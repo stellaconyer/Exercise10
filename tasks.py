@@ -265,8 +265,6 @@ def title(my_title):
             modified_string= modified_string + " " + item
     print modified_string
 
-
-
 """
 Write the following two functions
     c_to_f(float) -> float
@@ -274,3 +272,10 @@ Write the following two functions
 
 c_to_f should convert a temperature in celsius to fahrenheit, and f_to_c should do the opposite
 """
+
+def c_to_f(float):
+    pass
+
+def f_to_c(float):
+    pass
+
