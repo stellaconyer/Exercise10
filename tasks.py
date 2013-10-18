@@ -273,9 +273,13 @@ Write the following two functions
 c_to_f should convert a temperature in celsius to fahrenheit, and f_to_c should do the opposite
 """
 
-def c_to_f(float):
-    pass
+def c_to_f(floating_num):
+    fahrenheit = ((floating_num*9)/5)+32
+    print fahrenheit
 
-def f_to_c(float):
-    pass
+def f_to_c(floating_num):
+    celcius = ((floating_num-32)*5)/9
+    print celcius
 
+f_to_c(55.7)
+c_to_f(100.15)
